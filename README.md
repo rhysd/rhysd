@@ -1,4 +1,4 @@
-[![dogs respected](https://img.shields.io/badge/dogs-respected-brightgreen.svg?longCache=true&style=flat)](https://github.com/rhysd)
+[![dogs respected](https://github.com/rhysd/rhysd/raw/master/badge.svg)](https://github.com/rhysd)
 
 ### Programming languages
 
