@@ -10,18 +10,18 @@
 
 - [vim.wasm](https://github.com/rhysd/vim.wasm): Vim editor ported to WebAssembly. Run Vim on your browser
 
-### Commandline tools
-
-- [kiro-editor](https://github.com/rhysd/kiro-editor): UTF-8 text editor on terminal written in Rust
-- [git-brws](https://github.com/rhysd/git-brws): Quickly open several pages of several Git hosting services
-- [dotfiles](https://github.com/rhysd/dotfiles): CLI utility to manage 'dotfiles' with symbolic links
-
 ### [Vim plugins](https://github.com/search?q=user%3Arhysd+language%3Avim&type=Repositories)
 
 - [clever-f.vim](https://github.com/rhysd/clever-f.vim): Extended `f`, `F`, `t` and `T` key mappings. Makes repeating the search easier
 - [git-messenger.vim](https://github.com/rhysd/git-messenger.vim): Reveal the hidden message from Git under the cursor
 - [committia.vim](https://github.com/rhysd/committia.vim): Better 'Edit commit message' buffer on making a VCS commit
 - [8cc.vim](https://github.com/rhysd/8cc.vim): C99 compiler in Vim script porting from 8cc built with ELVM
+
+### Commandline tools
+
+- [kiro-editor](https://github.com/rhysd/kiro-editor): UTF-8 text editor on terminal written in Rust
+- [git-brws](https://github.com/rhysd/git-brws): Quickly open several pages of several Git hosting services
+- [dotfiles](https://github.com/rhysd/dotfiles): CLI utility to manage 'dotfiles' with symbolic links
 
 ### Desktop Applications
 
