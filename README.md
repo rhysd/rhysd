@@ -4,11 +4,11 @@
 
 - [Dachs](https://github.com/rhysd/Dachs): My own programming language. Statically typed GCed language with Ruby-inspired syntax (unmaintained)
 - [gocaml](https://github.com/rhysd/gocaml): Small subset of OCaml with level-based Hindley Milner monomorphic type system in Go
-- [wain](https://github.com/rhysd/gocaml): WebAssembly interpreter implemented in Safe Rust with zero dependencies
+- [wain](https://github.com/rhysd/gocaml): WebAssembly interpreter implemented with zero dependencies in Safe Rust
 
 ### Web apps
 
-- [vim.wasm](https://github.com/rhysd/vim.wasm): Vim editor ported to WebAssembly with Emscripten. Run Vim on your browser
+- [vim.wasm](https://github.com/rhysd/vim.wasm): Vim editor ported to browsers with WebAssembly and TypeScript
 
 ### [Vim plugins](https://github.com/search?q=user%3Arhysd+language%3Avim&type=Repositories)
 
@@ -25,8 +25,8 @@
 
 ### Desktop applications
 
-- [NyaoVim](https://github.com/rhysd/NyaoVim): Web-enhanced extensible Neovim frontend built on Electron and Web Components (unmaintained)
-- [Shiba](https://github.com/rhysd/Shiba): Rich markdown live preview app with a linter built on Electron
+- [NyaoVim](https://github.com/rhysd/NyaoVim): Web-enhanced extensible Neovim frontend built with Electron, Web Components and TypeScript (unmaintained)
+- [Shiba](https://github.com/rhysd/Shiba): Rich markdown live preview app with a linter built with Electron and TypeScript
 
 ### [Pull requests](https://github.com/search?q=sort%3Areactions-%2B1+author%3Arhysd+type%3Apr+-user%3Arhysd&type=Issues)
 
