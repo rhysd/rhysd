@@ -1,16 +1,16 @@
 [![dogs respected](https://github.com/rhysd/rhysd/raw/master/badge.svg)](https://github.com/rhysd)
 
-### Programming languages
+### ![code icon](https://github.com/rhysd/rhysd/raw/master/octicons/file-code-16.svg) Programming languages
 
 - [Dachs](https://github.com/rhysd/Dachs): My own programming language. Statically typed GCed language with Ruby-inspired syntax (unmaintained)
 - [gocaml](https://github.com/rhysd/gocaml): Small subset of OCaml with level-based monomorphic Hindley Milner type inference in Go
 - [wain](https://github.com/rhysd/gocaml): WebAssembly interpreter implemented with zero dependencies in Safe Rust
 
-### Web apps
+### ![browser icon](https://github.com/rhysd/rhysd/raw/master/octicons/browser-16.svg) Web apps
 
 - [vim.wasm](https://github.com/rhysd/vim.wasm): Vim editor ported to browsers with WebAssembly and TypeScript
 
-### [Vim plugins](https://github.com/search?q=user%3Arhysd+language%3Avim+fork%3Afalse&type=Repositories)
+### ![pencil icon](https://github.com/rhysd/rhysd/raw/master/octicons/pencil-16.svg) [Vim plugins](https://github.com/search?q=user%3Arhysd+language%3Avim+fork%3Afalse&type=Repositories)
 
 - [clever-f.vim](https://github.com/rhysd/clever-f.vim): Extended `f`, `F`, `t` and `T` key mappings
 - [git-messenger.vim](https://github.com/rhysd/git-messenger.vim): Reveal the hidden message from Git under the cursor
@@ -18,18 +18,18 @@
 - [vim-color-spring-night](https://github.com/rhysd/vim-color-spring-night): My own low-contrast color theme
 - [8cc.vim](https://github.com/rhysd/8cc.vim): C99 compiler in Vim script ported from 8cc with ELVM
 
-### Commandline tools
+### ![term icon](https://github.com/rhysd/rhysd/raw/master/octicons/terminal-16.svg) Commandline tools
 
 - [kiro-editor](https://github.com/rhysd/kiro-editor): Small UTF-8 text editor on terminal written in Rust
 - [git-brws](https://github.com/rhysd/git-brws): Quickly open various pages of several Git hosting services
 - [dotfiles](https://github.com/rhysd/dotfiles): CLI utility to manage 'dotfiles' with symbolic links
 
-### Desktop applications
+### ![desktop icon](https://github.com/rhysd/rhysd/raw/master/octicons/device-desktop-16.svg) Desktop applications
 
 - [NyaoVim](https://github.com/rhysd/NyaoVim): Web-enhanced extensible Neovim frontend built with Electron, Web Components and TypeScript (unmaintained)
 - [Shiba](https://github.com/rhysd/Shiba): Markdown live preview app integrating a linter built with Electron and TypeScript
 
-### [Pull requests](https://github.com/search?q=sort%3Areactions-%2B1+author%3Arhysd+type%3Apr+-user%3Arhysd&type=Issues)
+### ![pr icon](https://github.com/rhysd/rhysd/raw/master/octicons/git-pull-request-16.svg) [Pull requests](https://github.com/search?q=sort%3Areactions-%2B1+author%3Arhysd+type%3Apr+-user%3Arhysd&type=Issues)
 
 - [vim/vim#4541](https://github.com/vim/vim/pull/4541), [neovim/neovim#10313](https://github.com/neovim/neovim/pull/10313): Implement `:const` for Vim script
 - [vim/vim#3264](https://github.com/vim/vim/pull/3264): Add syntax highlighting and indenting for WebAssembly text format to Vim
