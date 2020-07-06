@@ -3,14 +3,14 @@
 ### ![code icon][] Programming languages
 
 - [Dachs](https://github.com/rhysd/Dachs): My own programming language. Statically typed GCed language with Ruby-inspired syntax (unmaintained)
-- [gocaml](https://github.com/rhysd/gocaml): Small subset of OCaml with level-based monomorphic Hindley Milner type inference <img src="devicon/go-line.svg" height=24 />
-- [wain](https://github.com/rhysd/wain): WebAssembly interpreter implemented with zero dependencies in Safe Rust <img src="devicon/rust-plain.svg" width=24 />
+- [gocaml](https://github.com/rhysd/gocaml): Small subset of OCaml with level-based monomorphic Hindley Milner type inference <img alt="go" src="devicon/go-line.svg" height=24 />
+- [wain](https://github.com/rhysd/wain): WebAssembly interpreter implemented with zero dependencies in Safe Rust <img alt="rust" src="devicon/rust-plain.svg" width=24 />
 
 ### ![browser icon][] Web apps
 
-- [vim.wasm](https://github.com/rhysd/vim.wasm): Vim editor ported to browsers <img src="./web-assembly-logo/web-assembly-icon-black.svg" width=18 /> <img src="devicon/typescript-original.svg" width=18 />
+- [vim.wasm](https://github.com/rhysd/vim.wasm): Vim editor ported to browsers <img alt="wasm" src="./web-assembly-logo/web-assembly-icon-black.svg" width=18 /> <img alt="typescript" src="devicon/typescript-original.svg" width=18 />
 
-### <img src="devicon/vim-plain.svg" width=16 /> [Vim plugins](https://github.com/search?q=user%3Arhysd+language%3Avim+fork%3Afalse&type=Repositories)
+### <img alt="vim" src="devicon/vim-plain.svg" width=16 /> [Vim plugins](https://github.com/search?q=user%3Arhysd+language%3Avim+fork%3Afalse&type=Repositories)
 
 - [clever-f.vim](https://github.com/rhysd/clever-f.vim): Extended `f`, `F`, `t` and `T` key mappings
 - [git-messenger.vim](https://github.com/rhysd/git-messenger.vim): Reveal the hidden message from Git under the cursor
@@ -20,14 +20,14 @@
 
 ### ![term icon][] Commandline tools
 
-- [kiro-editor](https://github.com/rhysd/kiro-editor): Small UTF-8 text editor on terminal <img src="devicon/rust-plain.svg" width=24 />
-- [git-brws](https://github.com/rhysd/git-brws): Quickly open various pages of several Git hosting services <img src="devicon/rust-plain.svg" width=24 />
-- [dotfiles](https://github.com/rhysd/dotfiles): CLI utility to manage 'dotfiles' with symbolic links <img src="devicon/go-line.svg" height=24 />
+- [kiro-editor](https://github.com/rhysd/kiro-editor): Small UTF-8 text editor on terminal <img alt="rust" src="devicon/rust-plain.svg" width=24 />
+- [git-brws](https://github.com/rhysd/git-brws): Quickly open various pages of several Git hosting services <img alt="rust" src="devicon/rust-plain.svg" width=24 />
+- [dotfiles](https://github.com/rhysd/dotfiles): CLI utility to manage 'dotfiles' with symbolic links <img alt="go" src="devicon/go-line.svg" height=24 />
 
 ### ![desktop icon][] Desktop applications
 
-- [NyaoVim](https://github.com/rhysd/NyaoVim): Web-enhanced extensible Neovim frontend built on Web Components (unmaintained) <img src="devicon/electron-original.svg" width=24 /> <img src="devicon/typescript-original.svg" width=18 />
-- [Shiba](https://github.com/rhysd/Shiba): Markdown live preview app integrating a linter <img src="devicon/electron-original.svg" width=24 /> <img src="devicon/typescript-original.svg" width=18 />
+- [NyaoVim](https://github.com/rhysd/NyaoVim): Web-enhanced extensible Neovim frontend built on Web Components (unmaintained) <img alt="electron" src="devicon/electron-original.svg" width=24 /> <img alt="typescript" src="devicon/typescript-original.svg" width=18 />
+- [Shiba](https://github.com/rhysd/Shiba): Markdown live preview app integrating a linter <img alt="electron" src="devicon/electron-original.svg" width=24 /> <img alt="typescript" src="devicon/typescript-original.svg" width=18 />
 
 ### [![pr icon][] Pull requests](https://github.com/search?q=sort%3Areactions-%2B1+author%3Arhysd+type%3Apr+-user%3Arhysd&type=Issues)
 
