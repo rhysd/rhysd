@@ -1,4 +1,4 @@
-[![dogs respected](https://github.com/rhysd/rhysd/raw/master/badge.svg)](https://github.com/rhysd)
+[![dogs respected](https://github.com/rhysd/rhysd/raw/master/badge.svg)](https://github.com/rhysd/rhysd/blob/master/return_dog.cpp)
 
 ```ruby
 eval$s=%w(s=%(eval$s=%w(#{$s})*"");f=->n{s.slice!(0,n)};p=32.c
