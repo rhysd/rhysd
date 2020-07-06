@@ -8,9 +8,9 @@
 
 ### ![browser icon][] Web apps
 
-- [vim.wasm](https://github.com/rhysd/vim.wasm): Vim editor ported to browsers with WebAssembly and TypeScript
+- [vim.wasm](https://github.com/rhysd/vim.wasm): Vim editor ported to browsers with WebAssembly, TypeScript and Web Worker
 
-### [![pencil icon][] Vim plugins](https://github.com/search?q=user%3Arhysd+language%3Avim+fork%3Afalse&type=Repositories)
+### [<img alt="vim icon" src="https://github.com/rhysd/rhysd/raw/master/devicon/vim.svg" width=16 /> Vim plugins](https://github.com/search?q=user%3Arhysd+language%3Avim+fork%3Afalse&type=Repositories)
 
 - [clever-f.vim](https://github.com/rhysd/clever-f.vim): Extended `f`, `F`, `t` and `T` key mappings
 - [git-messenger.vim](https://github.com/rhysd/git-messenger.vim): Reveal the hidden message from Git under the cursor
@@ -36,12 +36,11 @@
 - [rust-lang/rust-clippy#3723](https://github.com/rust-lang/rust-clippy/pull/3723): Add `dbg_macro` rule to clippy linter
 - [crystal-lang/crystal#329](https://github.com/crystal-lang/crystal/pull/329): Implement mt19937 RNG to improve Crystal's standard library
 - [kanaka/mal#70](https://github.com/kanaka/mal/pull/70): Add Crystal implementation of 'Make a Lisp'
-- [vim-jp/vital.vim#567](https://github.com/vim-jp/vital.vim/pull/567): Implement JavaScript's `Promise` in Vim script as a library
+- [vim-jp/vital.vim#567](https://github.com/vim-jp/vital.vim/pull/567): Implement ES2015 `Promise` in Vim script as a library
 - [autozimu/LanguageClient-neovim#767](https://github.com/autozimu/LanguageClient-neovim/pull/767): Implement a float window support for Neovim LSP client
 
 [code icon]: https://github.com/rhysd/rhysd/raw/master/octicons/file-code-16.svg
 [browser icon]: https://github.com/rhysd/rhysd/raw/master/octicons/browser-16.svg
-[pencil icon]: https://github.com/rhysd/rhysd/raw/master/octicons/pencil-16.svg
 [term icon]: https://github.com/rhysd/rhysd/raw/master/octicons/terminal-16.svg
 [desktop icon]: https://github.com/rhysd/rhysd/raw/master/octicons/device-desktop-16.svg
 [pr icon]: https://github.com/rhysd/rhysd/raw/master/octicons/git-pull-request-16.svg
