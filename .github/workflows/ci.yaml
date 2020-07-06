@@ -12,3 +12,18 @@ jobs:
           curl -L -o ./install-misspell.sh https://git.io/misspell
           sh ./install-misspell.sh -b .
       - run: ./misspell -error README.md
+  quine:
+    name: quine
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.6'
+      - name: validate quine
+        run: |
+          cd ./q
+          ruby gen_gen_aa.rb > gen_aa.rb
+          ruby gen_aa.rb > aa.rb
+          ruby aa.rb > ab.rb
+          diff -u aa.rb aa.rb

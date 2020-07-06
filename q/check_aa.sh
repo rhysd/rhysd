@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -e
-quine="$(ruby aa.rb)"
+gen_aa="$(ruby gen_gen_aa.rb)"
+aa="$(ruby -e "$gen_aa")"
 set -x
-diff -u <(ruby -e "$quine") <(echo "$quine")
+diff -u <(ruby -e "$aa") <(echo "$aa")
