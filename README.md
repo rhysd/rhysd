@@ -1,10 +1,17 @@
 [![dogs respected](https://github.com/rhysd/rhysd/raw/master/badge.svg)](https://github.com/rhysd)
 
-```cpp
-int main()
-{
-    return (U'ω');
-}
+```ruby
+eval$s=%w(s=%(eval$s=%w(#{$s})*"");f=->n{s.slice!(0,n)};p=32.c
+hr                                                          ;q
+=p   *3  ;g     =-         >{    pu    ts(f[6          2]   )}
+;h   =- >{put   s(         f[    2]   +p    *5         8+   f[
+2]   )};g  []   ;h [];     put  s([   82               67   60
+43   038        7,82791     8058491    ,8246      9920660   7,
+10   91         978   55         92         39   ,8    40   75
+24   82         05    1,   84   080   51    06   43    5,   10
+93   04         39    29    859].m     ap{|l|     t=f[2];   40
+.t                                                          im
+es{|i|t+=(i%8==0?q:'')+(l[i]>0?f[1]:p)};t+q+f[2]});h[];g[])*""
 ```
 
 ### ![code icon][] Programming languages
