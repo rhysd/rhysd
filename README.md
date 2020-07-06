@@ -1,5 +1,12 @@
 [![dogs respected](https://github.com/rhysd/rhysd/raw/master/badge.svg)](https://github.com/rhysd)
 
+```cpp
+int main()
+{
+    return (U'ω');
+}
+```
+
 ### ![code icon][] Programming languages
 
 - [Dachs](https://github.com/rhysd/Dachs): My own programming language. Statically typed GCed language with Ruby-inspired syntax (unmaintained)
