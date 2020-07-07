@@ -1,42 +1,35 @@
 #!/usr/bin/env ruby
 
 s = [
-    %w(xx__xxx_   xx______   xx____xx   ________   ______xx),
-    %w(xx_xxxxx   xx______   xx____xx   _xxxxxxx   ______xx),
-    %w(xxxx__xx   xx_xxx__   xxx__xxx   xx______   ______xx),
-    %w(xxx_____   xxxxxxx_   _xxxxxxx   _xxxxxx_   _xxxxxxx),
-    %w(xx______   xxx___xx   ______xx   ______xx   xx____xx),
-    %w(xx______   xx____xx   xx___xxx   xx____xx   xx____xx),
-    %w(xx______   xx____xx   _xxxxxx_   _xxxxxx_   _xxxxxxx),
+  "                                               ",
+  "  xx xxx   xx       xx   xx                xx  ",
+  "  xxxx xx  xx       xx   xx   xxxxxx       xx  ",
+  "  xxx   x  xxxxxx   xx   xx  xx            xx  ",
+  "  xx       xxx  xx   xxxxxx   xxxxx    xxxxxx  ",
+  "  xx       xx   xx       xx       xx  xx   xx  ",
+  "  xx       xx   xx   xxxxx   xxxxxx    xxxxxx  ",
+  "                                               ",
 ]
 
 encoded = s.map{|l|
-  l.join.chars.reverse.inject 0 do |acc, ch|
+  i = l.chars.reverse.inject 0 do |acc, ch|
     (acc << 1) + (ch == 'x' ? 1 : 0)
   end
+  i.to_s(36).dump()
 }.join(', ')
 
 puts <<-QUINE
 eval$s=%w(
   s = %(eval$s=%w(\#{$s})*"");
   f = -> n { s.slice!(0, n) };
-  w = 32.chr;
-  m = w * 3;
-  g = -> { puts(f[62]) };
-  h = -> { puts(f[2] + w * 58 + f[2]) };
 
-  g[];
-  h[];
-
-  puts([
+  puts(f[51], [
     #{encoded}
   ].map{|l|
-    f[2] + (0...40).map {|i|
-      (i % 8 > 0 ? "" : m) + (l[i] > 0 ? f[1] : w)
-    } * "" + m + f[2]
-  });
-
-  h[];
-  g[]
+    f[2] + (0..46).map {|i|
+      l.to_i(36)[i] > 0 ? f[1] : 32.chr
+    } * "" + f[2]
+  }, s)
+  # 👉 https://github.com/rhysd
 )*""
 QUINE
