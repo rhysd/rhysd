@@ -1,14 +1,19 @@
 #!/usr/bin/env ruby
 
 s = [
-  "                                               ",
-  "  xx xxx   xx       xx   xx                xx  ",
-  "  xxxx xx  xx       xx   xx   xxxxxx       xx  ",
-  "  xxx   x  xxxxxx   xx   xx  xx            xx  ",
-  "  xx       xxx  xx   xxxxxx   xxxxx    xxxxxx  ",
-  "  xx       xx   xx       xx       xx  xx   xx  ",
-  "  xx       xx   xx   xxxxx   xxxxxx    xxxxxx  ",
-  "                                               ",
+  "               xxxx                                                   xxxx",
+  "               xxxx                                                   xxxx",
+  "               xxxx                                                   xxxx",
+  " xxxx  xxxxx   xxxx xxxxxx   xxxx      xxxxx    xxxxxxxxx       xxxxx xxxx",
+  " xxxxxxxxxxx   xxxxxxxxxxxx   xxxx     xxxx    xxxxx  xxxx     xxxxxxxxxxx",
+  " xxxxxx        xxxxx   xxxx    xxxx   xxxx     xxxx           xxxx   xxxxx",
+  " xxxxx         xxxx    xxxx     xxxx xxxx       xxxxxxxxx     xxx     xxxx",
+  " xxxx          xxxx    xxxx      xxxxxxx           xxxxxxx    xxx     xxxx",
+  " xxxx          xxxx    xxxx       xxxxx        xxx    xxxx    xxxx   xxxxx",
+  " xxxx          xxxx    xxxx        xxx         xxxxxxxxxxx     xxxxxxxxxxx",
+  " xxxx          xxxx    xxxx       xxxx            xxxxxx        xxxxx xxxx",
+  "                              xxxxxxx                                     ",
+  "                              xxxxx                                       ",
 ]
 
 encoded = s.map{|l|
@@ -19,17 +24,15 @@ encoded = s.map{|l|
 }.join(', ')
 
 puts <<-QUINE
-eval$s=%w(
-  s = %(eval$s=%w(\#{$s})*"");
-  f = -> n { s.slice!(0, n) };
+eval($s=%w(
+  s = %(eval($s=%w(\#{$s})*""));
 
-  puts(f[51], [
+  puts([
     #{encoded}
   ].map{|l|
-    f[2] + (0..46).map {|i|
-      l.to_i(36)[i] > 0 ? f[1] : 32.chr
-    } * "" + f[2]
-  }, s)
-  # 👉 https://github.com/rhysd
-)*""
+    ((0..#{s[0].length-1}).map {|i|
+      l.to_i(36)[i] > 0 ? s.slice!(0) : 32.chr
+    } * "").rstrip
+  })
+)*"")
 QUINE
