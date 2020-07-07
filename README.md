@@ -1,17 +1,17 @@
 ```ruby
-               eval                                                   ($s=
-               %w(s                                                   =%(e
-               val(                                                   $s=%
- w(#{  $s})*   "")) ;puts(   ["2v      tbq3g    9vjre9s0"       ,"2vt bq3g
- 9vjre9s0","   2vtbq3g9vjre   9s0"     ,"2z    61gir  0zcj     kp7i","32ol
- bfyncr        au60u   ","2    zoi3   csux     sour           um",   "2w06
- 2v9mi         om9d    1a",     "2w0 75qv       enuyxnoe"     ,"2     zok4
- yc1o          n7rj    tq",      "32olf4           wzeuqy5    26"     ,"2z
- 60wk          rgrp    h5rm       m","1        qn8    bqps    ","f   ahmfb
- 4"].          map{    |l|(        (0.         .73).map{|i     |l.to_i(36)
- [i]>          0?s.    slic       e!(0            ):32.c        hr}*" ").r
-                              strip})
-                              )*"")
+              eval                                                   ($s=
+              %w(s                                                   =%(e
+              val(                                                   $s=%
+w(#{  $s})*   "")) ;puts(   ["1f      wnv1q    4xrvp4w0"       ,"1fw nv1q
+4xrvp4w0","   1fwnv1q4xrvp   4w0"     ,"1h    l0q9d  iho9     sclr","1jca
+npzbod        nf30f   ","1    hu91   oefg     wcfd           xb",   "1g03
+1fmt9         cb4o    in",     "1g0 3kvf       pbxhgtu7"     ,"1     hua2
+h60u          blvr    wv",      "1jcapk           ghpfdh2    j3"     ,"1h
+l0ga          dqdu    qkvt       b","v        bm5    vcw"    ,"7n   8t7nk
+"].m          ap{|    l|((        0..         72).map{|i|     l.to_i(36)[
+i]>0          ?s.s    lice       !(0)            :32.ch        r}*"" ).rs
+                             trip})#
+                             )*"")
 ```
 
 [![dogs respected](https://github.com/rhysd/rhysd/raw/master/badge.svg)](https://github.com/rhysd/rhysd/blob/master/return_dog.cpp)
