@@ -1,14 +1,17 @@
 ```ruby
-eval$s=%w(s=%(eval$s=%w(#{$s})*"");f=->n{s.slice!(0
-,n                                               )}
-;p  ut s(f   [5       1]   ,[                "0  ",
-"9  cqnl u8  rw       ",   "9   dlqcd4       1o  ",
-"9  cre   8  twd8",   "c   ae  9w            p7  v0
-",  "9       nx5  v2   80c","   caeho    do98",  "0
-"]  .m       ap   {|       l|       f[  2]   +(  0.
-.4  6)       .m   ap   {|i|l   .to_i(    36)[i]  >0
-?f                                               [1
-]:32.chr}*""+f[2]},s)#👉https://github.com/rhysd)*""
+              eval                                                   ($s=
+              %w(s                                                   =%(e
+              val(                                                   $s=%
+w(#{  $s})*   "")) ;puts(   ["1f      wnv1q    4xrvp4w0"       ,"1fw nv1q
+4xrvp4w0","   1fwnv1q4xrvp   4w0"     ,"1h    l0q9d  iho9     sclr","1jca
+npzbod        nf30f   ","1    hu91   oefg     wcfd           xb",   "1g03
+1fmt9         cb4o    in",     "1g0 3kvf       pbxhgtu7"     ,"1     hua2
+h60u          blvr    wv",      "1jcapk           ghpfdh2    j3"     ,"1h
+l0ga          dqdu    qkvt       b","v        bm5    vcw"    ,"7n   8t7nk
+"].m          ap{|    l|((        0..         72).map{|i|     l.to_i(36)[
+i]>0          ?s.s    lice       !(0)            :32.ch        r}*"" ).rs
+                             trip})#
+                             )*"")
 ```
 
 [![dogs respected](https://github.com/rhysd/rhysd/raw/master/badge.svg)](https://github.com/rhysd/rhysd/blob/master/return_dog.cpp)
