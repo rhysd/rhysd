@@ -39,6 +39,7 @@ i]>0          ?s.s    lice      !(0)             :32.ch        r}*"" ).rs
 - [kiro-editor](https://github.com/rhysd/kiro-editor): Small UTF-8 text editor on terminal written in Rust
 - [git-brws](https://github.com/rhysd/git-brws): Quickly open various pages of several Git hosting services
 - [dotfiles](https://github.com/rhysd/dotfiles): CLI utility to manage 'dotfiles' with symbolic links
+- [actionlint](https://github.com/rhysd/actionlint): Static checker for GitHub Actions workflow files
 
 ### ![desktop icon][] Desktop applications
 
