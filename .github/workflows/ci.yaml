@@ -2,8 +2,7 @@ name: CI
 on: [push, pull_request]
 
 jobs:
-  spell-check:
-    name: spell check
+  lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -12,8 +11,12 @@ jobs:
           curl -L -o ./install-misspell.sh https://git.io/misspell
           sh ./install-misspell.sh -b .
       - run: ./misspell -error README.md
+      - name: Check workflow files
+        run: |
+          bash <(curl https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
+          ./actionlint -color
+        shell: bash
   quine:
-    name: quine
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
