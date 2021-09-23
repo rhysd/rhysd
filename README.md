@@ -46,6 +46,12 @@ i]>0          ?s.s    lice      !(0)             :32.ch        r}*"" ).rs
 - [NyaoVim](https://github.com/rhysd/NyaoVim): Web-enhanced extensible Neovim frontend built with Electron, Web Components and TypeScript (unmaintained)
 - [Shiba](https://github.com/rhysd/Shiba): Markdown live preview app integrating a linter built with Electron and TypeScript
 
+### ![tools icon][] Maintainer
+
+- [neovim/node-client](https://github.com/neovim/node-client): Neovim Node.js client and plugin host
+- [prabirshrestha/vim-lsp](https://github.com/prabirshrestha/vim-lsp): Async language server protocol plugin for Vim and Neovim
+- [vim-crystal/vim-crystal](https://github.com/vim-crystal/vim-crystal): Vim filetype and tools support for Crystal language
+
 ### [![pr icon][] Pull requests](https://github.com/search?q=sort%3Areactions-%2B1+author%3Arhysd+type%3Apr+-user%3Arhysd&type=Issues "pull requests")
 
 - [vim/vim#4541](https://github.com/vim/vim/pull/4541), [neovim/neovim#10313](https://github.com/neovim/neovim/pull/10313): Implement `:const` for Vim script
@@ -61,3 +67,4 @@ i]>0          ?s.s    lice      !(0)             :32.ch        r}*"" ).rs
 [term icon]: https://github.com/rhysd/rhysd/raw/master/octicons/terminal-16.svg "terminal app"
 [desktop icon]: https://github.com/rhysd/rhysd/raw/master/octicons/device-desktop-16.svg "desktop app"
 [pr icon]: https://github.com/rhysd/rhysd/raw/master/octicons/git-pull-request-16.svg "pull requests"
+[tools icon]: https://github.com/rhysd/rhysd/raw/master/octicons/tools-16.svg "maintainer"
