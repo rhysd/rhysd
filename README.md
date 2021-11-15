@@ -40,6 +40,7 @@ i]>0          ?s.s    lice      !(0)             :32.ch        r}*"" ).rs
 - [git-brws](https://github.com/rhysd/git-brws): Quickly open various pages of several Git hosting services
 - [dotfiles](https://github.com/rhysd/dotfiles): CLI utility to manage 'dotfiles' with symbolic links
 - [actionlint](https://github.com/rhysd/actionlint): Static checker for GitHub Actions workflow files
+- [hgrep](https://github.com/rhysd/hgrep): Grep with human-friendly search results
 
 ### ![desktop icon][] Desktop applications
 
