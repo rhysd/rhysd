@@ -13,7 +13,7 @@ i]>0          ?s.s    lice      !(0)             :32.ch        r}*"" ).rs
                              trip})
                              )*"")
 ```
-<sub>[Run this code](https://wandbox.org/permlink/tGhhZBzKmv2YY3Gn)</sub>
+<sub>[Run this code](https://wandbox.org/permlink/iKqiJZFsECN1UUKE)</sub>
 
 [![dogs respected](https://github.com/rhysd/rhysd/raw/master/badge.svg)](https://github.com/rhysd/rhysd/blob/master/return_dog.cpp)
 
