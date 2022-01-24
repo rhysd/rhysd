@@ -19,8 +19,8 @@ i]>0          ?s.s    lice      !(0)             :32.ch        r}*"" ).rs
 
 ### ![code icon][] Programming languages
 
-- [Dachs](https://github.com/rhysd/Dachs): My own programming language. Statically typed GCed language with Ruby-inspired syntax (unmaintained)
-- [gocaml](https://github.com/rhysd/gocaml): Small subset of OCaml with level-based polymorphic Hindley Milner type inference in Go
+- [Dachs](https://github.com/rhysd/Dachs): My own programming language. It is a statically typed GCed language with Ruby-inspired syntax, and compiled to executable with LLVM (unmaintained)
+- [gocaml](https://github.com/rhysd/gocaml): Small subset of OCaml with level-based polymorphic Hindley Milner type inference in Go, and compiled to executable with LLVM
 - [wain](https://github.com/rhysd/wain): WebAssembly interpreter implemented with zero dependencies in Safe Rust
 
 ### ![browser icon][] Web apps
