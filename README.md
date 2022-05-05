@@ -38,7 +38,7 @@ i]>0          ?s.s    lice      !(0)             :32.ch        r}*"" ).rs
 ### ![term icon][] Commandline tools
 
 - [kiro-editor](https://github.com/rhysd/kiro-editor): Small UTF-8 text editor on terminal written in Rust
-- [git-brws](https://github.com/rhysd/git-brws): Quickly open various pages of several Git hosting services
+- [git-brws](https://github.com/rhysd/git-brws): Quickly open various pages in several Git hosting services
 - [dotfiles](https://github.com/rhysd/dotfiles): CLI utility to manage 'dotfiles' with symbolic links
 - [actionlint](https://github.com/rhysd/actionlint): Static checker for GitHub Actions workflow files
 - [hgrep](https://github.com/rhysd/hgrep): Grep with human-friendly search results
@@ -56,13 +56,13 @@ i]>0          ?s.s    lice      !(0)             :32.ch        r}*"" ).rs
 
 ### [![pr icon][] Pull requests](https://github.com/search?q=sort%3Areactions-%2B1+author%3Arhysd+type%3Apr+-user%3Arhysd&type=Issues "pull requests")
 
-- [vim/vim#4541](https://github.com/vim/vim/pull/4541), [neovim/neovim#10313](https://github.com/neovim/neovim/pull/10313): Implement `:const` for Vim script
-- [vim/vim#3264](https://github.com/vim/vim/pull/3264): Add syntax highlights and indentation for WebAssembly text format to Vim
-- [rust-lang/rust-clippy#3723](https://github.com/rust-lang/rust-clippy/pull/3723): Add `dbg_macro` rule to clippy linter
-- [crystal-lang/crystal#329](https://github.com/crystal-lang/crystal/pull/329): Implement mt19937 RNG to improve Crystal's standard library
-- [kanaka/mal#70](https://github.com/kanaka/mal/pull/70): Add Crystal implementation of 'Make a Lisp'
-- [vim-jp/vital.vim#567](https://github.com/vim-jp/vital.vim/pull/567): Implement ES2015 `Promise` in Vim script as a library
-- [autozimu/LanguageClient-neovim#767](https://github.com/autozimu/LanguageClient-neovim/pull/767): Implement a float window support for Neovim LSP client
+- [vim/vim#4541](https://github.com/vim/vim/pull/4541) and [neovim/neovim#10313](https://github.com/neovim/neovim/pull/10313) implemented `:const` for Vim script
+- [vim/vim#3264](https://github.com/vim/vim/pull/3264) added syntax highlights and indentation for WebAssembly text format to Vim
+- [rust-lang/rust-clippy#3723](https://github.com/rust-lang/rust-clippy/pull/3723) added `dbg_macro` rule to clippy linter
+- [crystal-lang/crystal#329](https://github.com/crystal-lang/crystal/pull/329) implemented mt19937 RNG to improve Crystal's standard library
+- [kanaka/mal#70](https://github.com/kanaka/mal/pull/70) added Crystal implementation of 'Make a Lisp'
+- [vim-jp/vital.vim#567](https://github.com/vim-jp/vital.vim/pull/567) implemented ES2015 `Promise` in Vim script as a library
+- [autozimu/LanguageClient-neovim#767](https://github.com/autozimu/LanguageClient-neovim/pull/767) implemented a float window support for Neovim LSP client
 
 [code icon]: https://github.com/rhysd/rhysd/raw/master/octicons/file-code-16.svg "programming language"
 [browser icon]: https://github.com/rhysd/rhysd/raw/master/octicons/browser-16.svg "web app"
