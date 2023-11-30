@@ -46,7 +46,7 @@ i]>0          ?s.s    lice      !(0)             :32.ch        r}*"" ).rs
 ### ![desktop icon][] Desktop applications
 
 - [NyaoVim](https://github.com/rhysd/NyaoVim): Web-enhanced extensible Neovim frontend built with Electron, Web Components and TypeScript (unmaintained)
-- [Shiba](https://github.com/rhysd/Shiba): Markdown live preview app integrating a linter built with Electron and TypeScript
+- [Shiba](https://github.com/rhysd/Shiba): Markdown live preview app integrating a linter built with Electron and TypeScript, being rewritten with Rust using OS-specific WebView
 
 ### ![tools icon][] Maintainer
 
