@@ -5,7 +5,7 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Install misspell
         run: |
           curl -L -o ./install-misspell.sh https://git.io/misspell
@@ -19,14 +19,14 @@ jobs:
   quine:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0'
-      - name: validate quine
+          ruby-version: '3.2'
+      - name: Validate quine
         run: |
           cd ./q
           ruby gen_gen_aa.rb > gen_aa.rb
           ruby gen_aa.rb > aa.rb
           ruby aa.rb > ab.rb
-          diff -u aa.rb aa.rb
+          diff -u aa.rb ab.rb
